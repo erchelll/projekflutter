@@ -6,11 +6,12 @@ class ProfilScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      // Background color and appbar color come from theme
       appBar: AppBar(title: const Text('Profile')),
-      body: Center(
-        child: const Text(
+      body: const Center(
+        child: Text(
           'This is your Profile Screen!',
-          style: TextStyle(fontSize: 24),
+          style: TextStyle(fontSize: 24, color: Colors.white),
         ),
       ),
     );

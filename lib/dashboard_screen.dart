@@ -6,11 +6,12 @@ class DashboardScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      // Background color and appbar color come from theme
       appBar: AppBar(title: const Text('Dashboard')),
-      body: Center(
-        child: const Text(
+      body: const Center(
+        child: Text(
           'This is the Dashboard Screen!',
-          style: TextStyle(fontSize: 24),
+          style: TextStyle(fontSize: 24, color: Colors.white),
         ),
       ),
     );
